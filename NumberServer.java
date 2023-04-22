@@ -18,7 +18,7 @@ class Handler implements URLHandler {
                 String[] parameters = url.getQuery().split("=");
 
                if (parameters[0] == "r") {
-                    return parameters[0];
+                    return parameters[0];ll
                }
                 
                // if (parameters[0].equals("count")) {
